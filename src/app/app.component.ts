@@ -12,7 +12,7 @@ import { MessageService } from './messages/message.service';
   animations: [slideInAnimation]
 })
 export class AppComponent {
-  pageTitle = 'Acme Product Management';
+  pageTitle = 'Admin Product Management';
   loading = true;
 
   get isLoggedIn(): boolean {
